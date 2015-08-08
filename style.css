@@ -1,0 +1,182 @@
+/* cOpYrIgHt bY nEoN sTuDiO */
+/* hAtE cOpYcAt */
+/* ?bLaCkLiSt?
+   1. cXxXxXxBxXx 
+   2. lXxEhXxE */
+
+/* 首頁 */
+
+/* 整體 */
+
+body{
+                background-attachment: fixed;
+                background-clip: border-box;
+                background-color: #000;
+                background-origin: padding-box;
+                background-position: center top;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                background-image:url("");
+margin: 0;
+padding: 0;
+font-family: "微軟正黑體","Microsoft JHengHei";
+}
+#body{
+margin:10px auto;
+width:1200px;
+min-height:450px;
+}
+
+/* 導航列(靠左) */
+
+#header {
+overflow: hidden;
+opacity:0.85;
+transition: opacity 0.5s ease 0s;
+position:fixed;
+z-index:99;
+}
+#header:hover{
+opacity:1;
+}
+#nav {
+width:200px;
+overflow: hidden;
+}
+#nav li{
+list-style-type: none;
+overflow: hidden;
+transition: all 0.2s ease-in-out 0.2s;
+}
+#nav a{text-decoration: none;}
+#nav ul{
+margin: 0;
+padding: 0;}
+
+/* 導航列項目 */
+
+.block{
+width:40px;
+height:40px;
+background-color:#000;
+color:#FFF;
+padding:5px;
+margin:0 5px 5px 0;
+}
+.block:hover{
+width:195px;
+}
+.logo{
+background-color:#FFF;
+color:#000;
+font-size:40px;
+font-family: "Britannic","Microsoft JHengHei";
+}
+.block.logo:hover{
+width:140px;
+}
+.navlogotext{
+width:40px;
+color:#000;
+}
+.navlogotext a{
+color:#000;
+text-decoration: none;}
+.navlogotext:hover{
+color:#000;
+width:140px;
+}
+#nav .uimg{
+padding:0;
+width:50px;
+height:50px;
+}
+#nav .uimg:hover{
+width:200px;
+}
+#nav .uimg img{
+width:50px;
+height:50px;
+padding:0;
+}
+
+#nav .uset img{
+width:40px;
+height:40px;
+}
+.navtext{
+margin:-37.5px 0 0 55px;
+font-size: 18px;
+}
+#nav .uimg .navtext{
+margin:-42.5px 0 0 60px;
+}
+#nav .bnot{
+background-color:#F00;
+background-image:url(img/img_bnot.png);
+background-repeat:no-repeat;
+}
+.navbtext{
+margin: -35px 0 0px 55px;
+}
+#nav .bmsg{
+background-color:#00F;
+background-image:url(img/img_bmsg.png);
+background-repeat:no-repeat;
+}
+#nav .bnot .num, #nav .bmsg .num{
+margin:20px 0 0 0;
+text-align:right;
+width:40px;
+}
+#nav .bnot .num:hover, #nav .bmsg .num:hover{
+width:40px;
+}
+.bnot.none{
+background-color:#FFF !important;
+background-image:url(img/img_bnot_none.png) !important;
+}
+.bmsg.none{
+background-color:#FFF !important;
+background-image:url(img/img_bmsg_none.png) !important;
+}
+
+.bnotzero{
+color:#F00;
+}
+.bmsgzero{
+color:#00F;
+}
+/* fb */
+#fb {
+overflow: hidden;
+width:50px;
+}
+#fb li{
+list-style-type: none;
+overflow: hidden;
+transition: all 0.3s ease-in-out 0.3s;
+}
+#fb a{text-decoration: none;}
+#fb ul{
+margin: 0;
+padding: 0;}
+.fb{
+width:50px;
+height:50px;
+padding:0;
+background-color:#3b579d;
+}
+.fb:hover{
+width:50px;
+}
+/* content */
+#content{
+background:rgba(255,255,255,0.85);
+width:1135px;
+padding:5px;
+margin:0 0 0 55px;
+min-height:2000px;
+z-index:100;
+}
