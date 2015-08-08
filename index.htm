@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta name="Description" content=" 
+cOpYrIgHt bY nEoN sTuDiO 
+ hAtE cOpYcAt 
+ ?bLaCkLiSt?
+ 1. cXxXxXxBxXx
+ 2. lXxEhXxE">
+<link rel="stylesheet" type="text/css" href ="style.css"/> 
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+     jQuery(document).ready(function(){
+         var random_bg=Math.floor(Math.random()*12)+1;
+         var bg='url(img/bg_'+random_bg+'.jpg)';
+         jQuery("body").css("background-image",bg);
+});
+
+</script>
+<script type="text/javascript">
+window.onscroll = changePos;
+
+function changePos() {
+    var header = document.getElementById("header");
+    if (window.pageYOffset > 10) {
+        header.style.top = 5 + "px";
+    } else {
+        header.style.top = "";
+    }
+}
+</script>
+<title>Sample</title>
+</head>
+<body>
+<div id="body">
+<div id="header">
+<div id="nav">
+<ul>
+<li class="block logo"><span class="navlogotext"><a href="./">Ne</a>on S.</span></li>
+<li class="block uimg"><a><img src="img/uimg.jpg"></img></a><div class="navtext">LOL</div></li>
+<li class="block uset"><a><img src="img/img_uset.png"></img></a><div class="navtext">用戶設置</div></li>
+<li class="block bnot"><a><div class="num">22</div></a><div class="navbtext">提醒</div></li>
+<li class="block bmsg"><a><div class="num">11</div></a><div class="navbtext">消息</div></li>
+<li class="block bnot none"><a><div class="num bnotzero">0</div></a><div class="navbtext bnotzero">提醒</div></li>
+<li class="block bmsg none"><a><div class="num bmsgzero">0</div></a><div class="navbtext bmsgzero">消息</div></li>
+</ul>
+</div>
+<div id="fb">
+<ul>
+<a href="http://www.facebook.com/neonhk.net"><li class="block fb"><img src="img/img_fb.png"></img></li></a>
+</ul>
+</div>
+</div>
+<div id="content">
+hi
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>
